@@ -1,4 +1,7 @@
 import "./bootstrap.ts";
+// importing styles
+import "../css/app.css";
+
 import type { DefineComponent } from "vue";
 import { createApp, h } from "vue";
 import { ZiggyVue } from "ziggy-js";
