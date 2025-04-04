@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "javdome/unstyled-blade-starter-kit",
+    "name": "marcos-aparicio/vue-daisyui-starter-kit",
     "type": "project",
-    "description": "A basic Laravel Blade starter kit with no CSS framework",
+    "description": "VueJS-based Laravel Starter kit with DaisyUI5 and TailwindCSS4",
     "keywords": [
         "laravel",
         "framework"
