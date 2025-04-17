@@ -135,13 +135,13 @@ const currentPath = page.props.ziggy?.location ? new URL(page.props.ziggy.locati
                     </div>
                     <ul tabindex="0"
                         class="dropdown-content bg-base-100 rounded border-1  border-primary z-1 w-52 mt-2 p-2 shadow-sm menu">
-                        <li class="mb-4">
-                            <div class="flex gap-2 items-end !p-0 pointer-events-none">
+                        <li class="mb-4 w-full">
+                            <div class="flex gap-2 items-end !p-0 pointer-events-none w-full">
                                 <UserAvatar class="!rounded-lg w-8 h-8" />
-                                <p class="text-sm flex flex-col">
-                                    <span class="font-bold truncate text-sm">{{ auth.user?.name
+                                <p class="text-sm flex flex-col truncate">
+                                    <span class="font-bold">{{ auth.user?.name
                                     }}</span>
-                                    <span class="text-xs truncate">{{ auth.user?.email }}</span>
+                                    <span class="text-xs">{{ auth.user?.email }}</span>
                                 </p>
                             </div>
                         </li>
